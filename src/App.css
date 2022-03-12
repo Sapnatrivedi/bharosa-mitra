@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* this css for Header */
+.navbar-color-change {
+	background-color: #598216;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+h5 {
+	color: #ffffff;
+}
+h5 small {
+	color: #ffffff;
+}
+/* this css for personal information */
+.number {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #f4f4f4;
+}
+.number-alignment {
+	position: relative;
+	top: 10px;
+	left: 38%;
+}
+.heading {
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+label {
+	color: #598216 !important;
+	font-weight: bold;
+}
+.horizontal-line {
+	border-top: 2px solid #f4f4f4;
+	width: 70%;
+	margin-top: 12px;
+}
+.stylus {
+	border-bottom: 3px solid #f4f4f4 !important;
+	margin-bottom: 10px;
+}
+.stylus1 {
+	border-bottom: 3px solid #f4f4f4 !important;
+	width: 76%;
+	position: relative;
+	bottom: 8px;
+}
+/* model button ke liye */
+.close-button {
+	box-sizing: content-box;
+	width: 1em;
+	height: 1em;
+	padding: 0.25em 0.25em;
+
+	color: red;
+
+	background: transparent url(Images/close.png) center/1em auto no-repeat;
+	border: 0;
+	border-radius: 0.25rem;
+}
+.ok-button {
+	background-color: #598216;
+	width: 100%;
+	color: white;
+	border: none !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	border-radius: 5px;
+}
+/* model-title upload sambandhit document heading */
+@media (max-width: 320px) {
+	.modal-title {
+		font-size: 4vw;
+		font-weight: bold;
+	}
+}
+
+/* document jode button */
+.add-document {
+	background-color: #efc100 !important;
+	color: white;
+	border: none !important;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-size: 12px;
+}
+@media (max-width: 576px) {
+	.stylus1 {
+		width: 70%;
+	}
+}
+@media (max-width: 320px) {
+	.stylus1 {
+		width: 62%;
+	}
+}
+
+/* save for later button */
+.save {
+	color: #598216 !important;
+	background-color: #eef2e7 !important;
+	border: none !important;
+	padding: 10px 10px !important;
+	border-radius: 0;
+}
+.submit {
+	background-color: #598216 !important;
+	color: white !important;
+	padding: 10px 22px !important;
+	border: none !important;
+	border-radius: 0 !important;
+	margin-right: 4px !important;
+}
+.fixed {
+	position: fixed;
+	right: 6%;
+	bottom: 0;
+}
+.delete-button {
+	border: none !important;
+	background: transparent !important;
+}
+.bank-circle {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #598216;
+	color: white;
+}
+.border-bank {
+	border-top: 3px solid #f4f4f4 !important;
+	width: 93%;
+}
+.deleteModal {
+	justify-content: center !important;
+}
+.deleteModal-cancel {
+	width: 30%;
+	background-color: #efc100 !important;
+	border-color: #efc100 !important;
+}
+.deleteModal-ok {
+	width: 30%;
+	background-color: #598216 !important;
+	border-color: #598216 !important;
+	
+}

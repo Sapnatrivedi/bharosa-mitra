@@ -1,0 +1,31 @@
+.space {
+	margin-top: 10%;
+}
+.profile-image {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: aqua;
+}
+.eye-icon {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: white;
+	border: 3px solid #598216;
+	color: #598216;
+	display: grid;
+	place-items: center;
+}
+.file-icon {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #598216;
+	border: 3px solid #598216;
+	display: grid;
+	place-items: center;
+}
+.file-icon a {
+	color: white !important;
+}
